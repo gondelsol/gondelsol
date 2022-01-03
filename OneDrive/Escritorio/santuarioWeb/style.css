@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: wheat;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: #007bff !important;
+}
+
+.encabezado {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.importante {
+    color: red;
+    font-size: large;
+    font-style: oblique;
+}
+
+.principal h2 {
+    text-align: center;
+}
+
+.listhor,
+.biografia,
+.listCoro,
+.listrad {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nota {
+    font-size: small;
+    font-style: oblique;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 30px;
+    font-size: small;
+    font-style: oblique;
+    text-align: right;
+}
+
+.contactFoot {
+    list-style: none;
+}
+
+.card {
+    margin: 5px;
+    background-color: antiquewhite;
+}
