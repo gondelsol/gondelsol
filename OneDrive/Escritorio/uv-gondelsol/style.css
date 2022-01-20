@@ -30,14 +30,24 @@ body {
 }
 
 .foto1 {
-    background-color: blue;
+    background-image: url(./images/parra.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .foto2 {
-    background-color: brown;
+    background-image: url(./images/bodega.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .foto3 {
-    background-color: darkgoldenrod;
+    background-image: url(./images/Mendoza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -47,7 +57,7 @@ footer {
     margin-top: 10px;
     background-image: url(./images/fondo7.svg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     text-align: right;
 }
 
