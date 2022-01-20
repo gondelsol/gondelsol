@@ -9,7 +9,17 @@ body {
     background-position: top;
 }
 
-/*imagen cliente*/
+/*Fondos servicios*/
+
+.servicio1, .servicio2 {
+    margin-top: 30px;
+    background-image: url(./images/fondo8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*imagen clientes*/
 
 .cliente {
     margin-top: 10px;
