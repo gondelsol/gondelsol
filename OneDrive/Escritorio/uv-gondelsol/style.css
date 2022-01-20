@@ -1,3 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(./images/fondo8.svg);
+    background-size: cover;
+    background-position: top;
+}
+
+/*imagen cliente*/
+
+.cliente {
+    margin-top: 10px;
+}
+
+.cfoto {
+    align-content: center;
+    justify-content: center;
+    text-justify: newspaper;
+}
+
+.foto {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid pink 2px;
+}
+
+.foto1 {
+    background-color: blue;
+}
+.foto2 {
+    background-color: brown;
+}
+
+.foto3 {
+    background-color: darkgoldenrod;
+}
 
 
-/*# sourceMappingURL=style.css.map */
+/*footer*/
+
+footer {
+    margin-top: 10px;
+    background-image: url(./images/fondo7.svg);
+    background-size: cover;
+    background-position: top;
+    text-align: right;
+}
+
+footer .redes {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contacto ul li {
+    list-style: none;
+}
+
+.card {
+    border: solid 2px pink;
+    margin: 10px;
+}
+
+
+/*
+$fsize1: 10px;
+$fsize2: $fsize1*2;
+$fsize3: $fsize1*3;
+$fsize4: $fsize1*4;
+pink: #e83e8c;
+red: #dc3545;
+
+    */
