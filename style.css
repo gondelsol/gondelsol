@@ -23,8 +23,33 @@ header {
 /* title3 styles */
 footer {
   background-color: blue;
+  color: white;
+}
+footer .redes {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+footer .redes .fab {
+  color: white;
+  padding-left: 30px;
 }
 
+.fab:hover {
+  color: red;
+  font-size: 40px;
+}
+
+/*
+.fab:hover::before {
+    transform: translate(101%, -50%);
+}
+
+.fab:hover::after {
+    opacity: 1;
+}
+
+*/
 /* Colors */
 /* Fonts */
 /* Size fonts */

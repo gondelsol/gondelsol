@@ -2,6 +2,8 @@
 
 /* Colors */
 
+$color1: white;
+$color2: red;
 
 /* Fonts */
 
@@ -35,7 +37,9 @@ $fsize6: $fsize1*6;
 $fsize7: $fsize1*7;
 
 /* margin and padding */
-
+ $marg1: 10px;
+ $marg2:  $marg1*2;
+ $marg3:  $marg1*3;
 
 /* paragraph styles */
 

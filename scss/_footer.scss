@@ -3,4 +3,32 @@
 
 footer {
     background-color: blue;
+    color: $color1;
+    & .redes {
+        color: $color1;
+        font-size: $fsize3;
+        text-align: center;
+        & .fab {
+            color: $color1;
+            padding-left: $marg3;
+            
+        }
+        
+    }
 }
+
+.fab:hover {
+    color: red ;
+    font-size: $fsize4 ;
+}
+
+/*
+.fab:hover::before {
+    transform: translate(101%, -50%);
+}
+
+.fab:hover::after {
+    opacity: 1;
+}
+
+*/
