@@ -3,19 +3,21 @@
 @import "variables";
 
 h1 {
-  /*  font-family: $font14;
-    font-size: $fsize3;
-    color: blue; */
     @include titulo1 (-family, -size);
-
 }
 
 
 p {
-    font-family: $font1;
-    font-size: $fsize5;
+    @include paragraph (-family, -size);
 }
 
-main {
+.principal {
     background-color: tomato;
+    padding: $marg3;
 }
+
+.secundario {
+    background-color: cyan;
+    padding: $marg3;
+}
+

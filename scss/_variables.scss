@@ -5,6 +5,8 @@
 $color1: white;
 $color2: red;
 $color3: blue;
+$color4: rgb(255, 238, 0);
+$color5: rgb(0, 247, 255);
 
 /* Fonts */
 
@@ -52,6 +54,15 @@ $fsize7: $fsize1*7;
     font-size: $fsize4;
     text-align: center;    
 }
+
+@mixin paragraph ($font-family, $font-size) {
+    font-family: $font10;
+    font-size: $fsize2;
+    text-align: justify;
+    
+}
+
+
 
 /* title2 styles */
 

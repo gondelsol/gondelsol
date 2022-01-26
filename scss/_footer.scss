@@ -13,7 +13,7 @@ footer {
             padding-left: $marg3;
         }
         & .fab:hover {
-            color: $color2;
+            color: $color5;
             font-size: $fsize4;
             transition-duration: 1s;
 
@@ -21,7 +21,9 @@ footer {
 
     }
     & .contacto {
+        font-family: $font1;
         ul {
+            text-align: right;
             li {
                 list-style: none;
                 text-align: right;
@@ -29,11 +31,18 @@ footer {
         }
     }
     & .firma {
-        color: yellowgreen;
-        font-size: $fsize3;
-        text-align: center;
-        a {
-            text-decoration: none;
+        color: $color1;
+        font-size: $fsize2;        
+        p {
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: $color5;
+            }
+            a:hover {
+                color: $color1;
+            }
         }
+
     }
 }

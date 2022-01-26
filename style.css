@@ -12,21 +12,22 @@
 header {
   padding-top: 10px;
   background-color: crimson;
-  height: 120px;
 }
 header h1 {
   text-align: center;
 }
 header .navbar {
   justify-content: end;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 header .navbar ul {
-  border: white solid 1px;
+  border: solid white 1px;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  background-color: blue;
 }
 header .navbar ul li {
   list-style: none;
@@ -39,7 +40,7 @@ header .navbar ul li .item {
   color: white;
 }
 header .navbar ul li .item:hover {
-  color: blue;
+  color: red;
   font-size: 20px;
   transition-duration: 1s;
 }
@@ -66,21 +67,33 @@ footer .redes .fab {
   padding-left: 30px;
 }
 footer .redes .fab:hover {
-  color: red;
+  color: #00f7ff;
   font-size: 40px;
   transition-duration: 1s;
+}
+footer .contacto {
+  font-family: "Architects Daughter", cursive;
+}
+footer .contacto ul {
+  text-align: right;
 }
 footer .contacto ul li {
   list-style: none;
   text-align: right;
 }
 footer .firma {
-  color: yellowgreen;
-  font-size: 30px;
+  color: white;
+  font-size: 20px;
+}
+footer .firma p {
   text-align: center;
 }
-footer .firma a {
+footer .firma p a {
   text-decoration: none;
+  color: #00f7ff;
+}
+footer .firma p a:hover {
+  color: white;
 }
 
 /* Colors */
@@ -92,21 +105,25 @@ footer .firma a {
 /* title2 styles */
 /* title3 styles */
 h1 {
-  /*  font-family: $font14;
-    font-size: $fsize3;
-    color: blue; */
   font-family: "Permanent Marker", cursive;
   font-size: 40px;
   text-align: center;
 }
 
 p {
-  font-family: "Architects Daughter", cursive;
-  font-size: 50px;
+  font-family: "Mitr", sans-serif;
+  font-size: 20px;
+  text-align: justify;
 }
 
-main {
+.principal {
   background-color: tomato;
+  padding: 30px;
+}
+
+.secundario {
+  background-color: cyan;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
