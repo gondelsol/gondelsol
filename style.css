@@ -10,7 +10,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 header {
+  padding-top: 10px;
   background-color: crimson;
+  height: 120px;
+}
+header h1 {
+  text-align: center;
+}
+header .navbar {
+  justify-content: end;
+  padding-right: 20px;
+}
+header .navbar ul {
+  border: white solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header .navbar ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding-right: 30px;
+}
+header .navbar ul li .item {
+  text-decoration: none;
+  color: white;
+}
+header .navbar ul li .item:hover {
+  color: blue;
+  font-size: 20px;
+  transition-duration: 1s;
 }
 
 /* Colors */
@@ -34,22 +65,24 @@ footer .redes .fab {
   color: white;
   padding-left: 30px;
 }
-
-.fab:hover {
+footer .redes .fab:hover {
   color: red;
   font-size: 40px;
+  transition-duration: 1s;
+}
+footer .contacto ul li {
+  list-style: none;
+  text-align: right;
+}
+footer .firma {
+  color: yellowgreen;
+  font-size: 30px;
+  text-align: center;
+}
+footer .firma a {
+  text-decoration: none;
 }
 
-/*
-.fab:hover::before {
-    transform: translate(101%, -50%);
-}
-
-.fab:hover::after {
-    opacity: 1;
-}
-
-*/
 /* Colors */
 /* Fonts */
 /* Size fonts */
@@ -59,9 +92,12 @@ footer .redes .fab {
 /* title2 styles */
 /* title3 styles */
 h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 30px;
-  color: blue;
+  /*  font-family: $font14;
+    font-size: $fsize3;
+    color: blue; */
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  text-align: center;
 }
 
 p {

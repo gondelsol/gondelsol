@@ -1,5 +1,37 @@
 @import "variables";
 
 header {
+    padding-top: $marg1;
     background-color: crimson;
+    height: 120px;
+    h1 {
+        text-align: center;
+    }
+    & .navbar {
+        justify-content: end;
+        padding-right: $marg2;
+            ul {
+                border: $color1 solid 1px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap; 
+            li {
+                list-style: none;
+                display: inline-block;
+                text-align: center;
+                padding-right: $marg3;
+                & .item {
+                    text-decoration: none;
+                    color: $color1;
+                }
+
+                & .item:hover {
+                    color: $color3;
+                    font-size: $fsize2;
+                    transition-duration: 1s;
+                }
+            }
+        }
+    }
 }

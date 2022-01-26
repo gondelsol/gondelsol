@@ -4,6 +4,7 @@
 
 $color1: white;
 $color2: red;
+$color3: blue;
 
 /* Fonts */
 
@@ -46,6 +47,11 @@ $fsize7: $fsize1*7;
 
 /* title1 styles */
 
+@mixin titulo1 ($font-family, $font-size) {
+    font-family: $font12;
+    font-size: $fsize4;
+    text-align: center;    
+}
 
 /* title2 styles */
 

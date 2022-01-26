@@ -3,10 +3,13 @@
 @import "variables";
 
 h1 {
-    font-family: $font14;
+  /*  font-family: $font14;
     font-size: $fsize3;
-    color: blue;
+    color: blue; */
+    @include titulo1 (-family, -size);
+
 }
+
 
 p {
     font-family: $font1;
