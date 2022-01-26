@@ -11,13 +11,13 @@ header {
         justify-content: end;
         padding-right: $marg3;
             ul {
-                border: solid $color1 1px;
+                //border: solid $color1 1px;
                 border-radius: 10px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
-                background-color: $color3;
+                //background-color: $color3;
             li {
                 list-style: none;
                 display: inline-block;

@@ -21,13 +21,11 @@ header .navbar {
   padding-right: 30px;
 }
 header .navbar ul {
-  border: solid white 1px;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: blue;
 }
 header .navbar ul li {
   list-style: none;
