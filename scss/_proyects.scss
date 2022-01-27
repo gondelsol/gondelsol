@@ -1,20 +1,152 @@
 @import "variables";
 
+.works {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: $color5;
+}
+
 .pictures {
     margin: 20px;
-    width: auto;
+    width: 1000px;
     height: auto;
     display: grid;
     grid-area: "picture1 picture2 picture3"
-               "picture1 picture4 picture4";
+        "picture1 picture4 picture4";
     //row-gap: 10px;
     //column-gap: 10px;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: space-around;
-    align-items: center;
 }
+
+.picture1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: auto;
+    height: 610px;
+    border: 1px solid $color5;
+    border-radius: 10px;
+    background-color: $color2;
+    justify-content: start;
+}
+
+.picture2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: auto;
+    height: 300px;
+    border: 1px solid $color5;
+    border-radius: 10px;
+    //background-image: url(../assets/images/portada2.jpg);
+}
+
+.picture3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: auto;
+    height: 300px;
+    border: 1px solid $color5;
+    border-radius: 10px;
+    background-color: rgb(42, 165, 63);
+    //background-image: url(../assets/images/portada3.jpg);
+}
+
+.picture4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: auto;
+    height: 300px;
+    border: 1px solid $color5;
+    border-radius: 10px;
+    //background-image: url(../assets/images/portada4.jfif);
+}
+
+
+/* vista celular*/
+@media screen and (max-width: 480px) {
+    .works {
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        background-color: $color2;
+    }
+    
+    .pictures {
+       // margin: 20px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+
+    .picture1 {
+        width: 260px;
+        height: 610px;
+        border: 1px solid $color5;
+        border-radius: 10px;
+        background-color: $color5;
+        justify-content: start;
+    }
+    
+    .picture2 {
+        width: 260px;
+        height: 260px;
+        border: 1px solid $color5;
+        border-radius: 10px;
+        //background-image: url(../assets/images/portada2.jpg);
+    }
+    
+    .picture3 {
+        width: 260px;
+        height: 260px;
+        border: 1px solid $color5;
+        border-radius: 10px;
+        background-color: rgb(42, 165, 63);
+        //background-image: url(../assets/images/portada3.jpg);
+    }
+    
+    .picture4 {
+        width: 260px;
+        height: 260px;
+        border: 1px solid $color5;
+        border-radius: 10px;
+        //background-image: url(../assets/images/portada4.jfif);
+    }
+}
+
+
+/*tablet*/
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+
+    .works {
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        color: $color4;
+        background-color: tomato;
+        margin: $marg3;
+    }
+    
+    .pictures {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-area: "picture1 picture2"
+            "picture1 picture3"
+            "picture4 picture4";
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+    
     .picture1 {
         grid-column: 1/2;
         grid-row: 1/3;
@@ -25,6 +157,7 @@
         background-color: $color2;
         justify-content: start;
     }
+    
     .picture2 {
         grid-column: 2/3;
         grid-row: 1/2;
@@ -34,9 +167,10 @@
         border-radius: 10px;
         //background-image: url(../assets/images/portada2.jpg);
     }
+    
     .picture3 {
-        grid-column: 3/4;
-        grid-row: 1/2;
+        grid-column: 2/3;
+        grid-row: 2/3;
         width: auto;
         height: 300px;
         border: 1px solid $color5;
@@ -44,9 +178,10 @@
         background-color: rgb(42, 165, 63);
         //background-image: url(../assets/images/portada3.jpg);
     }
+    
     .picture4 {
-        grid-column: 2/4;
-        grid-row: 2/3;
+        grid-column: 1/3;
+        grid-row: 3/4;
         width: auto;
         height: 300px;
         border: 1px solid $color5;
@@ -54,3 +189,5 @@
         //background-image: url(../assets/images/portada4.jfif);
     }
 
+    
+}

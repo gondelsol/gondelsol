@@ -35,20 +35,18 @@ p {
 /*Mobile view*/
 
 @media screen and (max-width: 480px) {
-    .secundario {
-        &.main2 {
-            background-color: rgb(204, 0, 255);
-        }
-    }
+.main2 {
+    color: blue;
+    columns: none;
+}
 }
 
-
+/*tablet*/
 
 @media only screen and (min-width: 481px) and (max-width: 720px) {
-    .secundario {
-        &.main2 {
-            background-color: rgb(0, 255, 98);
-            columns: 30px 2;
-        }
+    .main2 {
+        color: tomato;
+        columns: 20px 2;
     }
+
 }
