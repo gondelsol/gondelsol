@@ -1,6 +1,7 @@
 @import "header";
 @import "footer";
 @import "variables";
+@import "proyects";
 
 h1 {
     @include titulo1 (-family, -size);
@@ -14,6 +15,15 @@ p {
 .principal {
     background-color: tomato;
     padding: $marg3;
+
+    & .main1 {
+        background-color: burlywood;
+    }
+
+    & .main2 {
+        background-color: aqua;
+        columns: 30px 3;
+    }
 }
 
 .secundario {
@@ -21,3 +31,24 @@ p {
     padding: $marg3;
 }
 
+
+/*Mobile view*/
+
+@media screen and (max-width: 480px) {
+    .secundario {
+        &.main2 {
+            background-color: rgb(204, 0, 255);
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+    .secundario {
+        &.main2 {
+            background-color: rgb(0, 255, 98);
+            columns: 30px 2;
+        }
+    }
+}
