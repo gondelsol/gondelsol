@@ -138,7 +138,6 @@ footer .firma p a:hover {
   border: 1px solid #00f7ff;
   border-radius: 10px;
   background-color: red;
-  justify-content: start;
 }
 
 .picture2 {
@@ -174,7 +173,6 @@ footer .firma p a:hover {
   .works {
     text-align: center;
     align-content: center;
-    justify-content: center;
     background-color: red;
   }
 
@@ -183,8 +181,7 @@ footer .firma p a:hover {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    background-color: darkcyan;
   }
 
   .picture1 {
@@ -193,7 +190,7 @@ footer .firma p a:hover {
     border: 1px solid #00f7ff;
     border-radius: 10px;
     background-color: #00f7ff;
-    justify-content: start;
+    margin: 0 auto;
   }
 
   .picture2 {
@@ -201,6 +198,7 @@ footer .firma p a:hover {
     height: 260px;
     border: 1px solid #00f7ff;
     border-radius: 10px;
+    margin: 0 auto;
   }
 
   .picture3 {
@@ -209,13 +207,15 @@ footer .firma p a:hover {
     border: 1px solid #00f7ff;
     border-radius: 10px;
     background-color: #2aa53f;
+    margin: 0 auto;
   }
 
   .picture4 {
     width: 260px;
-    height: 260px;
+    height: 130px;
     border: 1px solid #00f7ff;
     border-radius: 10px;
+    margin: 0 auto;
   }
 }
 /*tablet*/
@@ -238,6 +238,7 @@ footer .firma p a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: space-around;
+    margin: 0 auto;
   }
 
   .picture1 {
@@ -300,27 +301,11 @@ p {
 }
 .principal .main2 {
   background-color: aqua;
-  columns: 30px 3;
 }
 
 .secundario {
   background-color: cyan;
   padding: 30px;
-}
-
-/*Mobile view*/
-@media screen and (max-width: 480px) {
-  .main2 {
-    color: blue;
-    columns: none;
-  }
-}
-/*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 720px) {
-  .main2 {
-    color: tomato;
-    columns: 20px 2;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

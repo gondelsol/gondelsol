@@ -30,7 +30,7 @@
     border: 1px solid $color5;
     border-radius: 10px;
     background-color: $color2;
-    justify-content: start;
+   // justify-content: start;
 }
 
 .picture2 {
@@ -70,8 +70,9 @@
     .works {
         text-align: center;
         align-content: center;
-        justify-content: center;
+       // justify-content: center;
         background-color: $color2;
+        //margin: auto 0;
     }
     
     .pictures {
@@ -80,9 +81,9 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-content: center;
-    }
+        //justify-content: space-around;
+        background-color: darkcyan;
+}
     
 
     .picture1 {
@@ -91,7 +92,7 @@
         border: 1px solid $color5;
         border-radius: 10px;
         background-color: $color5;
-        justify-content: start;
+        margin: 0 auto;
     }
     
     .picture2 {
@@ -99,6 +100,7 @@
         height: 260px;
         border: 1px solid $color5;
         border-radius: 10px;
+        margin: 0 auto;
         //background-image: url(../assets/images/portada2.jpg);
     }
     
@@ -108,14 +110,16 @@
         border: 1px solid $color5;
         border-radius: 10px;
         background-color: rgb(42, 165, 63);
+        margin: 0 auto;
         //background-image: url(../assets/images/portada3.jpg);
     }
     
     .picture4 {
         width: 260px;
-        height: 260px;
+        height: 130px;
         border: 1px solid $color5;
         border-radius: 10px;
+        margin: 0 auto;
         //background-image: url(../assets/images/portada4.jfif);
     }
 }
@@ -131,7 +135,7 @@
         justify-content: center;
         color: $color4;
         background-color: tomato;
-        margin: $marg3;
+        margin: $marg3
     }
     
     .pictures {
@@ -145,6 +149,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: space-around;
+        margin: 0 auto;
     }
     
     .picture1 {

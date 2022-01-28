@@ -15,14 +15,11 @@ p {
 .principal {
     background-color: tomato;
     padding: $marg3;
-
     & .main1 {
         background-color: burlywood;
     }
-
     & .main2 {
         background-color: aqua;
-        columns: 30px 3;
     }
 }
 
@@ -32,21 +29,3 @@ p {
 }
 
 
-/*Mobile view*/
-
-@media screen and (max-width: 480px) {
-.main2 {
-    color: blue;
-    columns: none;
-}
-}
-
-/*tablet*/
-
-@media only screen and (min-width: 481px) and (max-width: 720px) {
-    .main2 {
-        color: tomato;
-        columns: 20px 2;
-    }
-
-}
