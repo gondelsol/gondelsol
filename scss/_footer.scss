@@ -10,13 +10,16 @@ footer {
         text-align: center;
         & .fab {
             color: $color1;
-            padding-left: $marg3;
+            //padding-left: $marg3;
+            margin-left: $marg2;
+            margin-right: $marg2;
+            align-content: space-around;
+
         }
         & .fab:hover {
             color: $color5;
             font-size: $fsize4;
             transition-duration: 1s;
-
         }
 
     }

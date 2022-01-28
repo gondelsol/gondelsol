@@ -63,7 +63,9 @@ footer .redes {
 }
 footer .redes .fab {
   color: white;
-  padding-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-content: space-around;
 }
 footer .redes .fab:hover {
   color: #00f7ff;
@@ -112,9 +114,9 @@ footer .firma p a:hover {
 /* title2 styles */
 /* title3 styles */
 .works {
+  margin-top: 50px;
   text-align: center;
   align-content: center;
-  justify-content: center;
   color: #00f7ff;
 }
 
@@ -174,6 +176,7 @@ footer .firma p a:hover {
     text-align: center;
     align-content: center;
     background-color: red;
+    margin-top: 50px;
   }
 
   .pictures {
@@ -221,9 +224,9 @@ footer .firma p a:hover {
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 720px) {
   .works {
+    margin-top: 50px;
     text-align: center;
     align-content: center;
-    justify-content: center;
     color: #ffee00;
     background-color: tomato;
     margin: 30px;

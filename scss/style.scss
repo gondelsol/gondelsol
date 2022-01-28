@@ -12,6 +12,7 @@ p {
     @include paragraph (-family, -size);
 }
 
+
 .principal {
     background-color: tomato;
     padding: $marg3;
