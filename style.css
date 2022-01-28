@@ -114,10 +114,10 @@ footer .firma p a:hover {
 /* title2 styles */
 /* title3 styles */
 .works {
-  margin-top: 50px;
   text-align: center;
   align-content: center;
   color: #00f7ff;
+  padding-top: 20px;
 }
 
 .pictures {
@@ -130,6 +130,7 @@ footer .firma p a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-content: space-around;
+  padding: 20px 0px 30px 0px;
 }
 
 .picture1 {
@@ -139,7 +140,7 @@ footer .firma p a:hover {
   height: 610px;
   border: 1px solid #00f7ff;
   border-radius: 10px;
-  background-color: red;
+  background-color: white;
 }
 
 .picture2 {
@@ -176,7 +177,7 @@ footer .firma p a:hover {
     text-align: center;
     align-content: center;
     background-color: red;
-    margin-top: 50px;
+    padding-top: 20px;
   }
 
   .pictures {
@@ -184,7 +185,7 @@ footer .firma p a:hover {
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: darkcyan;
+    padding: 20px 0px 30px 0px;
   }
 
   .picture1 {
@@ -192,7 +193,7 @@ footer .firma p a:hover {
     height: 610px;
     border: 1px solid #00f7ff;
     border-radius: 10px;
-    background-color: #00f7ff;
+    background-color: #ffee00;
     margin: 0 auto;
   }
 
@@ -224,12 +225,11 @@ footer .firma p a:hover {
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 720px) {
   .works {
-    margin-top: 50px;
     text-align: center;
     align-content: center;
     color: #ffee00;
     background-color: tomato;
-    margin: 30px;
+    padding-top: 20px;
   }
 
   .pictures {
@@ -242,6 +242,7 @@ footer .firma p a:hover {
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: space-around;
     margin: 0 auto;
+    padding: 20px 0px 30px 0px;
   }
 
   .picture1 {
@@ -295,9 +296,13 @@ p {
   text-align: justify;
 }
 
+main {
+  padding-top: 50px;
+}
+
 .principal {
   background-color: tomato;
-  padding: 30px;
+  padding: 10px;
 }
 .principal .main1 {
   background-color: burlywood;
@@ -308,7 +313,7 @@ p {
 
 .secundario {
   background-color: cyan;
-  padding: 30px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

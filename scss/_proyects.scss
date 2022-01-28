@@ -1,11 +1,11 @@
 @import "variables";
 
 .works {
-    margin-top: $marg5;
     text-align: center;
     align-content: center;
     //justify-content: center;
     color: $color5;
+    padding-top: $marg2;
 }
 
 .pictures {
@@ -21,6 +21,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: space-around;
+    padding: $marg2 0px $marg3 0px;
 }
 
 .picture1 {
@@ -30,7 +31,7 @@
     height: 610px;
     border: 1px solid $color5;
     border-radius: 10px;
-    background-color: $color2;
+    background-color: $color1;
    // justify-content: start;
 }
 
@@ -73,18 +74,16 @@
         align-content: center;
        // justify-content: center;
         background-color: $color2;
-        margin-top: $marg5;
- 
+        padding-top: $marg2;
     }
     
     .pictures {
-       // margin: 20px;
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         //justify-content: space-around;
-        background-color: darkcyan;
+        padding: $marg2 0px $marg3 0px;
 }
     
 
@@ -93,7 +92,7 @@
         height: 610px;
         border: 1px solid $color5;
         border-radius: 10px;
-        background-color: $color5;
+        background-color: $color4;
         margin: 0 auto;
     }
     
@@ -132,13 +131,12 @@
 @media only screen and (min-width: 481px) and (max-width: 720px) {
 
     .works {
-        margin-top: $marg5;
         text-align: center;
         align-content: center;
         //justify-content: center;
         color: $color4;
         background-color: tomato;
-        margin: $marg3
+        padding-top: $marg2;
     }
     
     .pictures {
@@ -153,6 +151,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: space-around;
         margin: 0 auto;
+        padding: $marg2 0px $marg3 0px;
     }
     
     .picture1 {
@@ -196,6 +195,4 @@
         border-radius: 10px;
         //background-image: url(../assets/images/portada4.jfif);
     }
-
-    
 }

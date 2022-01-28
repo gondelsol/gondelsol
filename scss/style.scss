@@ -12,10 +12,13 @@ p {
     @include paragraph (-family, -size);
 }
 
+main {
+    padding-top: $marg5;
+}
 
 .principal {
     background-color: tomato;
-    padding: $marg3;
+    padding: $marg1;
     & .main1 {
         background-color: burlywood;
     }
@@ -26,7 +29,7 @@ p {
 
 .secundario {
     background-color: cyan;
-    padding: $marg3;
+    padding: $marg2;
 }
 
 
