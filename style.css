@@ -7,43 +7,31 @@
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
-/*
-header {
-    padding-top: $marg1;
-    h1 {
-        text-align: center;
-    }
-    & .navbar {
-        justify-content: end;
-        padding-right: $marg3;
-            ul {
-                //border: solid $color1 1px;
-                border-radius: 10px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                flex-wrap: wrap;
-                //background-color: $color3;
-            li {
-                list-style: none;
-                display: inline-block;
-                text-align: center;
-                padding-right: $marg3;
-                & .item {
-                    text-decoration: none;
-                    color: $color1;
-                }
-                & .item:hover {
-                    color: $color2;
-                    font-size: $fsize2;
-                    transition-duration: 1s;
-                }
-            }
-        }
-    }
-}
-*/
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
+.navbar {
+  background-color: #a9b4a6 !important;
+}
+
+.navbar-toggler {
+  background-color: #f0efed !important;
+}
+
+.offcanvas-body {
+  background-color: #a9b4a6;
+}
+.offcanvas-body ul .enlacesnav {
+  list-style: none;
+  text-decoration: none;
+}
+.offcanvas-body ul .enlacesnav a {
+  text-decoration: none;
+  color: #507a84;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}
+
 /* Colors */
 /* Fonts */
 /* Size fonts */
@@ -52,8 +40,6 @@ header {
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 footer {
   background-image: url(../images/footer.svg);
   background-size: cover;
@@ -120,7 +106,7 @@ footer .firma p a:hover {
 .works {
   text-align: center;
   align-content: center;
-  color: #678b82;
+  color: #507a84;
   padding-top: 20px;
 }
 
@@ -318,14 +304,26 @@ footer .firma p a:hover {
   }
 }
 body {
-  background-image: url(../images/body.svg);
+  background-image: url(../images/body2.svg);
   background-size: cover;
   background-position: top;
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Luxurious Roman", cursive;
   font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -340,7 +338,7 @@ main {
 }
 
 .principal {
-  background-color: #e1ded3;
+  background-color: #a9b4a6;
   padding: 10px;
 }
 .secundario {

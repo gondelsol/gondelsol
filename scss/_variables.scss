@@ -5,17 +5,17 @@
 $color1:#507a84;
 $color2:#678b82;
 $color3:#a9b4a6;
-$color4:#e1ded3;
+$color4:#a9b4a6;
 $color5:#f0efed;
 
 
 /* Fonts */
 
 $font1: 'Architects Daughter', cursive;
-$font2: 'Estonia', cursive;
+$font2: 'Estonia', cursive; // NOOOO
 $font3: 'Kaushan Script', cursive;
-$font4: 'Bubblegum Sans', cursive;
-$font5: 'Knewave', cursive;
+$font4: 'Bubblegum Sans', cursive; // NOOOO
+$font5: 'Knewave', cursive; // NOOOO
 $font6: 'Licorice', cursive;
 $font7: 'Love Light', cursive;
 $font8: 'Luxurious Roman', cursive;
@@ -53,7 +53,7 @@ $fsize7: $fsize1*7;
 /* title1 styles */
 
 @mixin titulo1 ($font-family, $font-size) {
-    font-family: $font12;
+    font-family: $font8;
     font-size: $fsize4;
     text-align: center;    
 }
@@ -69,5 +69,17 @@ $fsize7: $fsize1*7;
 
 /* title2 styles */
 
+@mixin titulo2 ($font-family, $font-size) {
+    font-family: $font12;
+    font-size: $fsize3;
+    text-align: center;    
+}
+
 
 /* title3 styles */
+
+@mixin titulo5 ($font-family, $font-size) {
+    font-family: $font1;
+    font-size: $fsize2;
+    text-align: center;    
+}

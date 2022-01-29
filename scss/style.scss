@@ -4,19 +4,18 @@
 @import "pictures";
 
 body {
-    background-image: url(../images/body.svg);
+    background-image: url(../images/body2.svg);
     background-size: cover;
     background-position: top;
 }
 
-h1 {
-    @include titulo1 (-family, -size);
-}
+h1 { @include titulo1 (-family, -size); }
 
+h2 { @include titulo2 (-family, -size); }
 
-p {
-    @include paragraph (-family, -size);
-}
+h5 { @include titulo5 (-family, -size); }
+
+p { @include paragraph (-family, -size); }
 
 main {
     padding-top: $marg5;
