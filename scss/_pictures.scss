@@ -3,8 +3,7 @@
 .works {
     text-align: center;
     align-content: center;
-    //justify-content: center;
-    color: $color5;
+    color: $color2;
     padding-top: $marg2;
 }
 
@@ -15,8 +14,6 @@
     display: grid;
     grid-area: "picture1 picture2 picture3"
         "picture1 picture4 picture4";
-    //row-gap: 10px;
-    //column-gap: 10px;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -29,10 +26,13 @@
     grid-row: 1/3;
     width: auto;
     height: 610px;
-    border: 1px solid $color5;
+    border: 1px solid $color1;
     border-radius: 10px;
-    background-color: $color1;
-   // justify-content: start;
+    background-image: url(../images/profile.jpg);
+    background-size: cover;
+    background-position: top;
+
+
 }
 
 .picture2 {
@@ -40,9 +40,13 @@
     grid-row: 1/2;
     width: auto;
     height: 300px;
-    border: 1px solid $color5;
+    border: 1px solid $color1;
     border-radius: 10px;
-    //background-image: url(../assets/images/portada2.jpg);
+    background-image: url(../images/profile2.jpg);
+    background-size: cover;
+    background-position: top;
+
+
 }
 
 .picture3 {
@@ -50,10 +54,11 @@
     grid-row: 1/2;
     width: auto;
     height: 300px;
-    border: 1px solid $color5;
+    border: 1px solid $color1;
     border-radius: 10px;
-    background-color: rgb(42, 165, 63);
-    //background-image: url(../assets/images/portada3.jpg);
+    background-image: url(../images/profile4.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 .picture4 {
@@ -61,9 +66,11 @@
     grid-row: 2/3;
     width: auto;
     height: 300px;
-    border: 1px solid $color5;
+    border: 1px solid $color1;
     border-radius: 10px;
-    //background-image: url(../assets/images/portada4.jfif);
+    background-image: url(../images/codigo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -72,9 +79,8 @@
     .works {
         text-align: center;
         align-content: center;
-       // justify-content: center;
-        background-color: $color2;
         padding-top: $marg2;
+        color: $color2;
     }
     
     .pictures {
@@ -82,7 +88,6 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        //justify-content: space-around;
         padding: $marg2 0px $marg3 0px;
 }
     
@@ -90,38 +95,45 @@
     .picture1 {
         width: 260px;
         height: 610px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        background-color: $color4;
         margin: 0 auto;
+        background-image: url(../images/profile.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture2 {
         width: 260px;
         height: 260px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
         margin: 0 auto;
-        //background-image: url(../assets/images/portada2.jpg);
+        background-image: url(../images/profile2.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture3 {
         width: 260px;
         height: 260px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        background-color: rgb(42, 165, 63);
         margin: 0 auto;
-        //background-image: url(../assets/images/portada3.jpg);
+        background-image: url(../images/profile4.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture4 {
         width: 260px;
         height: 130px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
         margin: 0 auto;
-        //background-image: url(../assets/images/portada4.jfif);
+        background-image: url(../images/codigo.jpg);
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -133,9 +145,7 @@
     .works {
         text-align: center;
         align-content: center;
-        //justify-content: center;
-        color: $color4;
-        background-color: tomato;
+        color: $color2;
         padding-top: $marg2;
     }
     
@@ -159,10 +169,12 @@
         grid-row: 1/3;
         width: auto;
         height: 610px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        background-color: $color2;
         justify-content: start;
+        background-image: url(../images/profile.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture2 {
@@ -170,9 +182,11 @@
         grid-row: 1/2;
         width: auto;
         height: 300px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        //background-image: url(../assets/images/portada2.jpg);
+        background-image: url(../images/profile2.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture3 {
@@ -180,10 +194,11 @@
         grid-row: 2/3;
         width: auto;
         height: 300px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        background-color: rgb(42, 165, 63);
-        //background-image: url(../assets/images/portada3.jpg);
+        background-image: url(../images/profile4.jpg);
+        background-size: cover;
+        background-position: top;
     }
     
     .picture4 {
@@ -191,8 +206,10 @@
         grid-row: 3/4;
         width: auto;
         height: 300px;
-        border: 1px solid $color5;
+        border: 1px solid $color1;
         border-radius: 10px;
-        //background-image: url(../assets/images/portada4.jfif);
+        background-image: url(../images/codigo.jpg);
+        background-size: cover;
+        background-position: center;
     }
 }

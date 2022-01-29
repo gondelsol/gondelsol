@@ -1,7 +1,13 @@
 @import "header";
 @import "footer";
 @import "variables";
-@import "proyects";
+@import "pictures";
+
+body {
+    background-image: url(../images/body.svg);
+    background-size: cover;
+    background-position: top;
+}
 
 h1 {
     @include titulo1 (-family, -size);
@@ -17,19 +23,17 @@ main {
 }
 
 .principal {
-    background-color: tomato;
+    background-color: $color4;
     padding: $marg1;
     & .main1 {
-        background-color: burlywood;
+       // background-color: $color5;
     }
     & .main2 {
-        background-color: aqua;
+       // background-color: $color5;
     }
 }
 
 .secundario {
-    background-color: cyan;
+    background-color: $color5;
     padding: $marg2;
 }
-
-
