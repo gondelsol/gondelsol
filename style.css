@@ -7,6 +7,8 @@
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
+/* Altura carousel */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
@@ -40,6 +42,7 @@
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
+/* Altura carousel */
 footer {
   background-image: url(../images/footer.svg);
   background-size: cover;
@@ -95,6 +98,7 @@ footer .firma p a:hover {
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
+/* Altura carousel */
 /* Colors */
 /* Fonts */
 /* Size fonts */
@@ -103,6 +107,7 @@ footer .firma p a:hover {
 /* title1 styles */
 /* title2 styles */
 /* title3 styles */
+/* Altura carousel */
 .works {
   text-align: center;
   align-content: center;
@@ -154,7 +159,7 @@ footer .firma p a:hover {
   height: 300px;
   border: 1px solid #507a84;
   border-radius: 10px;
-  background-image: url(../images/profile4.jpg);
+  background-image: url(../images/diploma.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -216,7 +221,7 @@ footer .firma p a:hover {
     border: 1px solid #507a84;
     border-radius: 10px;
     margin: 0 auto;
-    background-image: url(../images/profile4.jpg);
+    background-image: url(../images/diploma.jpg);
     background-size: cover;
     background-position: top;
   }
@@ -286,7 +291,7 @@ footer .firma p a:hover {
     height: 300px;
     border: 1px solid #507a84;
     border-radius: 10px;
-    background-image: url(../images/profile4.jpg);
+    background-image: url(../images/diploma.jpg);
     background-size: cover;
     background-position: top;
   }
@@ -303,6 +308,15 @@ footer .firma p a:hover {
     background-position: center;
   }
 }
+/* Colors */
+/* Fonts */
+/* Size fonts */
+/* margin and padding */
+/* paragraph styles */
+/* title1 styles */
+/* title2 styles */
+/* title3 styles */
+/* Altura carousel */
 body {
   background-image: url(../images/body2.svg);
   background-size: cover;
