@@ -12,6 +12,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap");
 .navbar {
   background-color: #a9b4a6 !important;
 }
@@ -317,6 +318,94 @@ footer .firma p a:hover {
 /* title2 styles */
 /* title3 styles */
 /* Altura carousel */
+/* Colors */
+/* Fonts */
+/* Size fonts */
+/* margin and padding */
+/* paragraph styles */
+/* title1 styles */
+/* title2 styles */
+/* title3 styles */
+/* Altura carousel */
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+.caja--clave1 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #a9b4a6;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-image: url(../images/caja/clave1.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.caja--clave2 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #a9b4a6;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-image: url(../images/caja/clave2.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.caja--clave3 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #a9b4a6;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-image: url(../images/caja/clave3.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.caja--clave4 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #a9b4a6;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-image: url(../images/caja/clave4.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.caja--clave5 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #a9b4a6;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-image: url(../images/caja/clave5.svg);
+  background-size: cover;
+  background-position: top;
+}
+
 body {
   background-image: url(../images/body2.svg);
   background-size: cover;
