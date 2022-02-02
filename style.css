@@ -22,7 +22,7 @@
 }
 
 .offcanvas-body {
-  background-color: #a9b4a6;
+  background-color: #e1ded3;
 }
 .offcanvas-body ul .enlacesnav {
   list-style: none;
@@ -344,7 +344,7 @@ footer .firma p a:hover {
 .caja--clave1 {
   width: 300px;
   height: 300px;
-  border: 3px solid #a9b4a6;
+  border: 3px solid #e1ded3;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
@@ -357,7 +357,7 @@ footer .firma p a:hover {
 .caja--clave2 {
   width: 300px;
   height: 300px;
-  border: 3px solid #a9b4a6;
+  border: 3px solid #e1ded3;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
@@ -370,7 +370,7 @@ footer .firma p a:hover {
 .caja--clave3 {
   width: 300px;
   height: 300px;
-  border: 3px solid #a9b4a6;
+  border: 3px solid #e1ded3;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
@@ -383,7 +383,7 @@ footer .firma p a:hover {
 .caja--clave4 {
   width: 300px;
   height: 300px;
-  border: 3px solid #a9b4a6;
+  border: 3px solid #e1ded3;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
@@ -396,7 +396,7 @@ footer .firma p a:hover {
 .caja--clave5 {
   width: 300px;
   height: 300px;
-  border: 3px solid #a9b4a6;
+  border: 3px solid #e1ded3;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
@@ -441,7 +441,7 @@ main {
 }
 
 .principal {
-  background-color: #a9b4a6;
+  background-color: #e1ded3;
   padding: 10px;
 }
 .secundario {
