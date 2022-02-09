@@ -439,6 +439,12 @@ p {
 main {
   padding-top: 50px;
 }
+main .presentation {
+  animation-name: webtitle;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
 
 .principal {
   background-color: #e1ded3;
@@ -447,6 +453,15 @@ main {
 .secundario {
   background-color: #f0efed;
   padding: 20px;
+}
+
+@keyframes webtitle {
+  from {
+    transform: scaleX(-1);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

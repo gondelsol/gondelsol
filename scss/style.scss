@@ -21,6 +21,13 @@ p { @include paragraph (-family, -size); }
 
 main {
     padding-top: $marg5;
+    & .presentation {
+        animation-name: webtitle;
+        animation-duration: 3s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse;
+        // background-color: red;
+    }
 }
 
 .principal {
@@ -37,4 +44,14 @@ main {
 .secundario {
     background-color: $color5;
     padding: $marg2;
+}
+
+@keyframes webtitle {
+    from { //background-color: $color5;
+        transform: scaleX(-1);
+    }
+        to { //background-color: $color4;
+            transform: scaleX(1);
+        }
+
 }
