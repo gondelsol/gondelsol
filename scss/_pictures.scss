@@ -1,11 +1,13 @@
 @import "variables";
 
+/*
 .works {
     text-align: center;
     align-content: center;
     color: $color1;
     padding-top: $marg2;
 }
+*/
 
 .pictures {
     margin: 20px;
@@ -76,13 +78,15 @@
 
 /* vista celular*/
 @media screen and (max-width: 480px) {
+
+    /*
     .works {
         text-align: center;
         align-content: center;
         padding-top: $marg2;
         color: $color2;
     }
-    
+    */
     .pictures {
         width: auto;
         height: auto;
@@ -142,12 +146,14 @@
 
 @media only screen and (min-width: 481px) and (max-width: 720px) {
 
+    /*
     .works {
         text-align: center;
         align-content: center;
         color: $color2;
         padding-top: $marg2;
     }
+    */
     
     .pictures {
         width: auto;

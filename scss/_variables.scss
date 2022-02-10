@@ -11,24 +11,10 @@ $color5:#f0efed;
 
 /* Fonts */
 
-$font1: 'Architects Daughter', cursive;
-$font2: 'Estonia', cursive; // NOOOO
-$font3: 'Kaushan Script', cursive;
-$font4: 'Bubblegum Sans', cursive; // NOOOO
-$font5: 'Knewave', cursive; // NOOOO
-$font6: 'Licorice', cursive;
-$font7: 'Love Light', cursive;
-$font8: 'Luxurious Roman', cursive;
-$font9: 'Merienda', cursive;
-$font10: 'Mitr', sans-serif;
-$font11: 'Niconne', cursive;
-$font12: 'Permanent Marker', cursive;
-$font13: 'Rock Salt', cursive;
-$font14: 'Sacramento', cursive;
-$font15: 'Shadows Into Light', cursive;
-$font16: 'The Nautigal', cursive;
-$font17: 'Ubuntu', sans-serif;
-$font18: 'Vujahday Script', cursive;
+$font1: 'Architects Daughter', cursive; //si
+$font8: 'Luxurious Roman', cursive;  //si
+$font10: 'Mitr', sans-serif; //si
+$font12: 'Permanent Marker', cursive; //si
 
 /* Size fonts */
 
@@ -58,15 +44,6 @@ $fsize7: $fsize1*7;
     text-align: center;    
 }
 
-@mixin paragraph ($font-family, $font-size) {
-    font-family: $font10;
-    font-size: $fsize2;
-    text-align: justify;
-    
-}
-
-
-
 /* title2 styles */
 
 @mixin titulo2 ($font-family, $font-size) {
@@ -83,6 +60,16 @@ $fsize7: $fsize1*7;
     font-size: $fsize2;
     text-align: center;    
 }
+
+/* paragraph styles */
+
+@mixin paragraph ($font-family, $font-size) {
+    font-family: $font10;
+    font-size: $fsize2;
+    text-align: justify;
+    
+}
+
 
 /* Altura carousel */
 
