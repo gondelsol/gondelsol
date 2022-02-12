@@ -38,6 +38,13 @@ $mapa: (
         background-image: url(../images/caja/#{$clave}.svg);
         background-size: cover;
         background-position: top;
+        animation-name: giro1;
+        animation-duration: 3s;
     }
+}
 
+
+@keyframes primera {
+    from  { background-color: red; }
+    to { background-color: blue;}
 }

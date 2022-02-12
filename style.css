@@ -340,6 +340,8 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave1.svg);
   background-size: cover;
   background-position: top;
+  animation-name: giro1;
+  animation-duration: 3s;
 }
 
 .caja--clave2 {
@@ -353,6 +355,8 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave2.svg);
   background-size: cover;
   background-position: top;
+  animation-name: giro1;
+  animation-duration: 3s;
 }
 
 .caja--clave3 {
@@ -366,6 +370,8 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave3.svg);
   background-size: cover;
   background-position: top;
+  animation-name: giro1;
+  animation-duration: 3s;
 }
 
 .caja--clave4 {
@@ -379,6 +385,8 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave4.svg);
   background-size: cover;
   background-position: top;
+  animation-name: giro1;
+  animation-duration: 3s;
 }
 
 .caja--clave5 {
@@ -392,8 +400,18 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave5.svg);
   background-size: cover;
   background-position: top;
+  animation-name: giro1;
+  animation-duration: 3s;
 }
 
+@keyframes primera {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
 body {
   background-image: url(../images/body2.svg);
   background-size: cover;
@@ -429,32 +447,19 @@ main {
 }
 main .presentation {
   padding-top: 20px;
-}
-main .presentation .first {
-  /*
-  animation-name: giro1;
+  animation-name: scan1;
   animation-duration: 3s;
-  animation-iteration-count: 2;
-  animation-direction: alternate-reverse;*/
-}
-main .presentation .second {
-  /*
-  animation-name: giro1;
-  animation-delay: .5s;
-  animation-duration: 3s;
-  animation-iteration-count: 2;
-  animation-direction: alternate-reverse; */
 }
 
 .principal {
-  background-color: #e1ded3;
+  background-color: #f0efed;
   padding: 10px;
 }
 .principal .main1 h2 {
   animation-name: giro2;
   animation-duration: 1s;
   animation-iteration-count: 2;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
 }
 .principal .main2 h2 {
   animation-name: giro1;
@@ -479,10 +484,21 @@ main .presentation .second {
 }
 @keyframes giro2 {
   from {
-    transform: scaleX(1);
+    transform: scaleY(-1);
   }
   to {
-    transform: scaleX(-1);
+    transform: scaleY(1);
+  }
+}
+@keyframes scan1 {
+  0% {
+    clip-path: polygon(0 0, 15% 0, 15% 100%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 0, 48% 0, 77% 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 
