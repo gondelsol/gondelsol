@@ -340,8 +340,10 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave1.svg);
   background-size: cover;
   background-position: top;
-  animation-name: giro1;
+  animation-name: clave1;
   animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
 .caja--clave2 {
@@ -355,8 +357,10 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave2.svg);
   background-size: cover;
   background-position: top;
-  animation-name: giro1;
+  animation-name: clave2;
   animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
 .caja--clave3 {
@@ -370,8 +374,10 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave3.svg);
   background-size: cover;
   background-position: top;
-  animation-name: giro1;
+  animation-name: clave3;
   animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
 .caja--clave4 {
@@ -385,8 +391,10 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave4.svg);
   background-size: cover;
   background-position: top;
-  animation-name: giro1;
+  animation-name: clave4;
   animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
 .caja--clave5 {
@@ -400,16 +408,53 @@ footer .firma p a:hover {
   background-image: url(../images/caja/clave5.svg);
   background-size: cover;
   background-position: top;
-  animation-name: giro1;
+  animation-name: clave5;
   animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
-@keyframes primera {
+@keyframes clave1 {
   from {
-    background-color: red;
+    transform: scaleX(-1);
   }
   to {
-    background-color: blue;
+    transform: scaleX(1);
+  }
+}
+@keyframes clave2 {
+  0% {
+    transform: skewX(20deg);
+  }
+  50% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+@keyframes clave3 {
+  0% {
+    transform: translateX(50%);
+  }
+  25% {
+    transform: translateY(50%);
+  }
+}
+@keyframes clave4 {
+  0% {
+    clip-path: inset(48% 43% 42% 44%);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes clave5 {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: scaleY(1);
   }
 }
 body {
@@ -452,7 +497,6 @@ main .presentation {
 }
 
 .principal {
-  background-color: #f0efed;
   padding: 10px;
 }
 .principal .main1 h2 {

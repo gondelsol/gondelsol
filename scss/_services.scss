@@ -38,13 +38,36 @@ $mapa: (
         background-image: url(../images/caja/#{$clave}.svg);
         background-size: cover;
         background-position: top;
-        animation-name: giro1;
+        animation-name: #{$clave};
         animation-duration: 3s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse;
     }
 }
 
 
-@keyframes primera {
-    from  { background-color: red; }
-    to { background-color: blue;}
+@keyframes clave1 {
+    from { transform: scaleX(-1); }
+    to { transform: scaleX(1); }
+}
+
+@keyframes clave2 {
+    0% { transform: skewX(20deg); }
+    50% { transform: skewY(20deg) }
+    100% { transform: skewX(0deg);}
+}
+
+@keyframes clave3 {
+    0% { transform: translateX(50%); }
+    25% { transform: translateY(50%); }
+}
+
+@keyframes clave4 {
+    0% { clip-path: inset(48% 43% 42% 44%); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes clave5 {
+    from { transform: rotate(90deg); }
+    to { transform: scaleY(1); }
 }
