@@ -35,6 +35,9 @@
   font-family: "Architects Daughter", cursive;
   font-size: 20px;
 }
+.offcanvas-body ul .enlacesnav a:hover {
+  font-size: 30px;
+}
 
 /* Colors */
 /* Fonts */
