@@ -5,6 +5,7 @@
 @import "projects";
 @import "services";
 
+
 body {
     background-image: url(../images/body2.svg);
     background-size: cover;
@@ -30,9 +31,10 @@ p {
 main {
     padding-top: $marg5;
     & .presentation {
-        padding-top: $marg2;
-        animation-name: scan1;
-        animation-duration: 3s;
+        padding-top: $marg3;
+        padding-bottom: $marg3;
+        /*animation-name: scan1;
+        animation-duration: 3s;*/
     }
 }
 
@@ -40,7 +42,7 @@ main {
 .principal {
     //background-color: $color4;
     padding: $marg1;
-    & .main1 {
+   & .main1 {
         h2 {
             animation-name: giro2;
             animation-duration: 1s;
@@ -50,7 +52,7 @@ main {
     }
     & .main2 {
         h2 {
-            animation-name: giro1; //barrido2
+            animation-name: giro1;
             animation-delay: 1s;
             animation-duration: 1s;
             animation-iteration-count: 2;

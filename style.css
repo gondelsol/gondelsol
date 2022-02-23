@@ -456,9 +456,10 @@ main {
   padding-top: 50px;
 }
 main .presentation {
-  padding-top: 20px;
-  animation-name: scan1;
-  animation-duration: 3s;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*animation-name: scan1;
+  animation-duration: 3s;*/
 }
 
 .principal {
