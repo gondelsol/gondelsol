@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&family=Estonia&family=Kaushan+Script&family=Knewave&family=Licorice&family=Love+Light&family=Luxurious+Roman&family=Merienda:wght@400;700&family=Mitr:wght@200&family=Niconne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&family=Shadows+Into+Light&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,300&family=Vujahday+Script&display=swap');
+
+/* Colors */
+
+$color1:#507a84;
+$color2:#678b82;
+$color3:#a9b4a6;
+$color4:#e1ded3;
+$color5:#f0efed;
+
+
+/* Fonts */
+
+$font1: 'Architects Daughter', cursive; //si
+$font8: 'Luxurious Roman', cursive;  //si
+$font10: 'Mitr', sans-serif; //si
+$font12: 'Permanent Marker', cursive; //si
+
+/* Size fonts */
+
+$fsize1: 10px;
+$fsize2: $fsize1*2;
+$fsize3: $fsize1*3;
+$fsize4: $fsize1*4;
+$fsize5: $fsize1*5;
+$fsize6: $fsize1*6;
+$fsize7: $fsize1*7;
+
+/* margin and padding */
+ $marg1: 10px;
+ $marg2:  $marg1*2;
+ $marg3:  $marg1*3;
+ $marg4:  $marg1*4;
+ $marg5:  $marg1*5;
+
+/* paragraph styles */
+
+
+/* title1 styles */
+
+@mixin titulo1 ($font-family, $font-size) {
+    font-family: $font8;
+    font-size: $fsize4;
+    text-align: center;    
+}
+
+/* title2 styles */
+
+@mixin titulo2 ($font-family, $font-size) {
+    font-family: $font12;
+    font-size: $fsize3;
+    text-align: center;    
+}
+
+
+/* title3 styles */
+
+@mixin titulo5 ($font-family, $font-size) {
+    font-family: $font1;
+    font-size: $fsize2;
+    text-align: center;    
+}
+
+/* paragraph styles */
+
+@mixin paragraph ($font-family, $font-size) {
+    font-family: $font10;
+    font-size: $fsize2;
+    text-align: justify;
+    
+}
+
+
+/* Altura carousel */
+
+$alturaCarrusel: 300px;

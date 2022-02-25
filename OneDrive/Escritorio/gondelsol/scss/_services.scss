@@ -1,0 +1,73 @@
+@import "variables";
+
+$mapa: (
+    clave1: $color1,
+    clave2: $color2,
+    clave3: $color3,
+    clave4: $color4,
+    clave5: $color5,
+);
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: $marg5;
+    margin-bottom: $marg3;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column-reverse;
+      margin-top: $marg5;
+      margin-bottom: $marg3;
+    }
+  }
+
+@each $clave, $color in $mapa {
+
+    .caja--#{$clave} {
+
+        width: 300px;
+        height: 300px;
+        border: 3px solid $color4;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: $marg2;
+        text-transform: uppercase;
+        background-image: url(../images/caja/#{$clave}.svg);
+        background-size: cover;
+        background-position: top;
+        //animation-name: #{$clave};
+        //animation-iteration-count: 2;
+        //animation-direction: alternate-reverse;
+        //animation-duration: 3s;
+    }
+}
+
+/*
+@keyframes clave1 {
+    from { transform: scaleX(-1); }
+    to { transform: scaleX(1); }
+}
+
+@keyframes clave2 {
+    0% { transform: skewX(20deg); }
+    50% { transform: skewY(20deg) }
+    100% { transform: skewX(0deg);}
+}
+
+@keyframes clave3 {
+    0% { transform: translateX(50%); }
+    25% { transform: translateY(50%); }
+}
+
+@keyframes clave4 {
+    0% { clip-path: inset(48% 43% 42% 44%); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes clave5 {
+    from { transform: rotate(90deg); }
+}
+*/

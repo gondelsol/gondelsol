@@ -1,0 +1,53 @@
+@import "variables";
+
+
+footer {
+    background-image: url(../images/footer.svg);
+    background-size: cover;
+    background-position: top;
+    & .redes {
+        color: $color1;
+        font-size: $fsize3;
+        text-align: center;
+        & .fab {
+            color: $color1;
+            margin-left: $marg2;
+            margin-right: $marg2;
+            align-content: space-around;
+            transition-property: all ;
+            transition-duration: 0.5s;
+
+        }
+        & .fab:hover {
+            color: $color5;
+           }
+
+    }
+    & .contacto {
+        font-family: $font1;
+        color: $color1;
+        ul {
+            text-align: right;
+            li {
+                list-style: none;
+                text-align: right;
+            }
+        }
+    }
+    & .firma {
+        color: $color2;
+        font-size: $fsize1;        
+        p {
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: $color1;
+                transition-property: all ;
+                transition-duration: 1s;
+            }
+            a:hover {
+                color: $color5;
+            }
+        }
+    }
+}

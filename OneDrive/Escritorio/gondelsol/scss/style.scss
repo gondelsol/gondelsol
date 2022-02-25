@@ -1,0 +1,84 @@
+@import "header";
+@import "footer";
+@import "variables";
+@import "pictures";
+@import "projects";
+@import "services";
+
+
+body {
+    background-image: url(../images/body2.svg);
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    @include titulo1 (-family, -size);
+}
+
+h2 {
+    @include titulo2 (-family, -size);
+}
+
+h5 {
+    @include titulo5 (-family, -size);
+}
+
+p {
+    @include paragraph (-family, -size);
+}
+
+main {
+    padding-top: $marg5;
+    & .presentation {
+        padding-top: $marg3;
+        padding-bottom: $marg3;
+        /*animation-name: scan1;
+        animation-duration: 3s;*/
+    }
+}
+
+
+.principal {
+    //background-color: $color4;
+    padding: $marg1;
+   & .main1 {
+        h2 {
+            animation-name: giro2;
+            animation-duration: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+        }
+    }
+    & .main2 {
+        h2 {
+            animation-name: giro1;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+        }
+    }
+}
+
+.secundario {
+    background-color: $color5;
+    padding: $marg2;
+}
+
+
+@keyframes giro1 {
+    from { transform: scaleX(-1); }
+    to { transform: scaleX(1); }
+}
+
+@keyframes giro2 {
+    from { transform: scaleY(-1); }
+    to { transform: scaleY(1); }
+}
+
+@keyframes scan1 {
+    0% { clip-path: polygon(0 0, 15% 0, 15% 100%, 0 100%); }
+    50% { clip-path: polygon(0 0, 48% 0, 77% 100%, 0 100%); }
+    100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
